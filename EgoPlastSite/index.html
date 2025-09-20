@@ -1,0 +1,287 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+  <title>Ego Plast</title>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+  rel="styleshhet">
+
+  <!-- Font Awesome for icons -->
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-video">
+
+        <!-- Background Video -->
+         <video autoplay muted loop
+class="covervideo.mp4">
+         <source src="covervideo.mp4"
+type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="logo.jpg" alt="Business Logo">
+    </div>
+
+    <!-- Explore Button -->
+    <div class="explore-btn">
+      <a href="#products">Explore</a>
+    </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title"><span class="highlight">EGO</span> PLAST</h1>
+        <p>Your trusted dealer in plastic chairs, tables, canopies, kiddies chairs and tables (set), home use rubbers, kitchen utensils and more - wholesale & retail.</p>
+        <a href="#services"
+    class="cta-btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!--  Product Gallery Section -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+      <title>Product Gallery</title>
+      <link rel="stylesheet"
+    href="style.css">
+    </head>
+    <body>
+
+      <h2 class="gallery-title">Product Gallery</h2>
+
+      <!-- Tables and Chairs -->
+      <div class="section">
+        <h2>Tables & Chairs</h2>
+        <p>Durable and stylish plastic tables and chairs for events, homes, and offices use.</p>
+        <div class="gallery">
+          <img src="image/chair/chair1.jpg" alt="Chair 1">
+        </div>
+        <button class="view-more" data-target="chair.html">View More</button>
+      </div>
+
+      <!-- Kiddies -->
+      <div class="section">
+        <h2>Kiddies Set</h2>
+        <p>Fun, safe, and colorful tables and chairs for children use.</p>
+        <div class="gallery">
+          <img src="image/kiddies/kiddies1.jpg" alt="Kiddies 1">
+        </div>
+        <button class="view-more" data-target="kiddies.html">View More</button>
+      </div>
+
+      <!-- Kitchen Utensile -->
+      <div class="section">
+        <h2>Kitchen Utensils</h2>
+        <p>Everyday essential kitchen utensils made with durable materials.</p>
+        <div class="gallery">
+          <img src="image/kitchen_utensil/kitchen1.jpg" alt="Kitchen 1">
+        </div>
+        <button class="view-more" data-target="kitchen_utensil.html">View More</button>
+      </div>
+
+      <!-- Mops and Sweepers -->
+      <div class="section">
+        <h2>Mops & Sweepers</h2>
+        <p>Efficient cleaning mops and sweepers suitable for homes and commercial use.</p>
+        <div class="gallery">
+          <img src="image/mops/mop5.jpg" alt="Mop 5">
+        </div>
+        <button class="view-more" data-target="mops.html">View More</button>
+      </div>
+
+      <!-- Rubber -->
+      <div class="section">
+        <h2>Buckets & Rubbers</h2>
+        <p>Strong and flexible rubber products for household and industrial use.</p>
+        <div class="gallery">
+          <img src="image/rubber/rubber1.jpg" alt="Rubber 1">
+        </div>
+        <button class="view-more" data-target="rubber.html">View More</button>
+      </div>
+
+      <!-- Tent -->
+      <div class="section">
+      <h2>Canopy</h2>
+      <p>Strong and spacious canopies for outdoor events and gatherings.</p>
+      <div class="gallery">
+        <img src="image/tent/tent1.jpg" alt="Tent 1">
+      </div>
+      <button class="view-more" data-target="tent.html">View More</button>
+      </div>
+
+  <script>
+    // Select all "View More" buttons
+
+  document.querySelectorAll('.view-more'). forEach(button => {
+    button.addEventListener('click', () => {
+      const targetPage = button.getAttribute('data-target');
+      window.location.href = targetPage; // redirect to the page
+    });
+  });
+  </script>
+
+  <!-- ===== Why Choose Us Section ===== -->
+  <section class="why-choose-us">
+    <h2>Why Choose Us</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/quality.jpg" alt="Quality">
+          <h3>Quality Products</h3>
+          <p>We provide only the best quality products to satisfy our customers' need.</p>    
+      </div>
+
+      <div class="card">
+        <img src="images/bulk.jpg" alt="Bulk and Retail">
+        <h3>Bulk & Retail</h3>
+        <p>We offer flexibility options for both wholesale and retail purchases.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/fast-delivery.jpg" alt="Fast Delivery">
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable delivery services right to your doorstep.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/customer-support.jpg" alt="Customer Support">
+        <h3>Customer Support</h3>
+        <p>Our team is always available to assist you anytime you need help.</p>
+      </div>
+    
+    </div>
+  </section>
+
+  <!-- ===== About Us Section ===== -->
+  <div class="about-section">
+    <!-- CEO Card -->
+    <div class="card">
+      <img src="images/ceo.jpg" alt="CEO" class="card-icon">
+      <h3>Our CEO</h3>
+      <p><strong>Nwakaego Victoria Umeji</strong>, the visionary founder and CEO of Ego Plast, has dedicated her career to bringing high-quality fashion and household products to customers at affordable prices. With a passion for innovation and customer satistfaction, she has grown the brand into a trusted name, balancing style, durability, and affordability.</p>
+
+      <p2>She has built this brand with a vision for quality, affordability and customer trust. With over 10 years of experience in the business to ensure every customer gets the best.</p2>
+    </div>
+
+    <!-- Mission Card -->
+    <div class="card">
+      <img src="images/mission.jpg" alt="Mission" class="card-icon">
+      <h3>Our Mission</h3>
+      <p>To provide durable, stylish, and affordable products that improve everyday life while ensuring customer satisfaction and long-lasting trust.</p>
+    </div>
+  </div>
+
+  <!-- ===== Contact Section ===== -->
+  <div class="contact-section">
+    <h2 class="section-heading">Contact Us</h2>
+    <p>We'd love to hear from you! Reach us directly or send us a message below.</p>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+    <p><i class="fas fa-phone"></i> +234 (803) 9664-548  or  +234 (806) 6615-487</p>
+    <p><i class="fas fa-envelope"></i> egoplast00@gmail.com</p>
+    <p><i class="fas fa-map-marker-alt"></i> S.W. 177 Sabon Gari Road, Minna, Niger State.</p>
+    </div>
+  </div>
+
+  <!-- ===== Testimonials (Slider) ===== -->
+  <section class="testimonial">
+    <h2>What Our Customers Says</h2>
+
+    <div class="testimonial-container">
+        <div class="testimonial-slide">
+            <div class="testimonial-icon">
+                <img src="images/icon.jpg" alt="Bot Icon">
+            </div>
+            <p>Hassan Muhammed</p>
+            <p>This is the best product i have used! Highly recommend!</p>
+        </div>
+        <div class="testimonial-slide">
+            <div class="testimonial-icon">
+                <img src="images/icon.jpg" alt="Bot Icon">
+              </div>
+              <p>Chinedu Onuh</p>
+              <p>Amazing quality and fast delivery. Very happy with my purchase!</p>
+        </div>
+        <div class="testimonial-slide">
+             <div class="testimonial-icon">
+                 <img src="images/icon.jpg" alt="Bot Icon">
+             </div>
+             <p>Seun Paul</p>
+             <p>Excellent customer support and smooth shopping experience.</p>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+      </div>
+    </section>
+
+  <!-- ===== Footer Section ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Logo + tagline -->
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Ego Plast Logo" class="footer-brand-logo">
+        <h3><span class="cursive">EGO</span> <span class="brand-blue">Plast</span></h3>
+        <p>Your trusted partner in plastics</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#why-choose-us">Why Choose Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer-socials">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Ego Plast. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
